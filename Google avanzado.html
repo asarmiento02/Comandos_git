@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced</title>
+        <style>           
+            a{
+                width: 110px;
+                margin: none;
+            }
+            div{
+                margin-bottom: 40px;
+            }
+            input{
+                margin-bottom: 5px;
+                padding: 4px;
+                width: 540px;
+                margin-left: 500px;
+            }
+            #f {
+                color:#d93025;
+                font-family: sans-serif;
+                font-size: 25px;
+                }
+        </style>
+    </head>
+    <body>
+        <a href="Google.html" style="float:right"> Google Search</a> 
+        <div>
+            <img src="fotogoogle.png" alt="Google" style="width: 110px; height: 35px;">
+        </div>
+        <p id="f"> Advanced Search</p>
+        <hr style="color: lightgray;">
+        <form action="https://www.google.com/search">
+        <div>
+           <label for="fieldd">  
+               all these words:
+           </label> 
+           <input id="fieldd" type="text" name="q" style="margin-left: 120px; margin-top: 45px;">
+           <input id="CIGjud" name="tbs" type="hidden" value="">
+        </div>
+        <div>
+           <label for="field">
+               this exact word or phrase:
+           </label>
+           <input id="field" type="text" class="textinput" name="as_epq" value="" style="margin-left: 49px;">
+        </div>
+        <div>
+        <label for="field2">
+            any of this words:
+        </label>
+            <input id="field2" type="text" class="textinput" name="as_oq" value="" style="margin-left: 100px;">
+        </div>
+        <div>
+            <label for="fieeld">
+            none of this words:
+            </label>
+            <input type="text" class="textinput" name="as_eq" value="" style="margin-left: 92px;">
+        </div>  
+            <input id="fieeld" type="submit" value="Advanced Search" style="background-color:dodgerblue; color: rgb(255, 255, 255); border-color: dodgerblue ; width: 150px; ">
+        
+    </form>
+    </body>
+</html>
