@@ -1,5 +1,4 @@
 # Comandos de git
-
 # Iniciar el proyecto
 git init 
 # para agregar todo
@@ -19,7 +18,9 @@ ojo con este branch
 git branch -M main
 git push -u origin main
 
+# Para checkear cual es el link de origin
 
+git remote --verbose
 origin	https://github.com/your/repository (fetch)
 origin	https://github.com/your/repository (push)
 
