@@ -35,3 +35,9 @@ git push
 
 # En caso de tener que hacer un puush a una parte en especifico
 git push origin masterg
+
+
+# Para eliminar y ver las ramas (branches)
+
+git branch -l
+git branch -d "Nombre de la rama" 
