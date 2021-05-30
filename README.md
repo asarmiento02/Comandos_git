@@ -1,8 +1,13 @@
 # Comandos de git
+
+Para mas informacion colocar 
+    **git command --help** 
 # Iniciar el proyecto
 git init 
 para agregar todo
 git add .
+git reset # Para eliminar el seguimiento
+git reset head # Para eliminar todo
 # Para agregar los archivos al repositorio
 git commit -m "Nombre para identificar la version" 
 
