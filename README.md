@@ -34,4 +34,4 @@ en caso de tener que hacer un puush a una parte en especifico
 git push
 
 En caso de tener que hacer un puush a una parte en especifico
-git push origin master
+git push origin masterg
