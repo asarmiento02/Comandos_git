@@ -8,6 +8,10 @@ para agregar todo
 git add .
 git reset # Para eliminar el seguimiento
 git reset head # Para eliminar todo
+
+# Para ver el estado del proyecto
+git status
+
 # Para agregar los archivos al repositorio
 git commit -m "Nombre para identificar la version" 
 
@@ -21,6 +25,8 @@ git remote add origin https://github.com/asarmiento02/Prueba.git
 ojo con este branch
 
 git branch -M main
+**-M move/rename a branch, even if target exists**
+
 git push -u origin main
 
 # Para checkear cual es el link de origin
