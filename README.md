@@ -1,12 +1,12 @@
 # Comandos de git
-# Iniciar el proyecto
+Iniciar el proyecto
 git init 
-# para agregar todo
+para agregar todo
 git add .
-# Para agregar los archivos al repositorio
+Para agregar los archivos al repositorio
 git commit -m "Nombre para identificar la version" 
 
-# Para eliminar el acceso al origin
+Para eliminar el acceso al origin
 git remote remove origin
 
 Para agregar un acceso remoto a un repositorio
@@ -18,7 +18,7 @@ ojo con este branch
 git branch -M main
 git push -u origin main
 
-# Para checkear cual es el link de origin
+Para checkear cual es el link de origin
 
 git remote --verbose
 origin	https://github.com/your/repository (fetch)
