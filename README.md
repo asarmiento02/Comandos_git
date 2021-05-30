@@ -1,8 +1,13 @@
 # Comandos de git
 
-Iniciar el proyecto
-git init +
+# Iniciar el proyecto
+git init 
+# para agregar todo
+git add .
+# Para agregar los archivos al repositorio
+git commit -m "Nombre para identificar la version" 
 
+# Para eliminar el acceso al origin
 git remote remove origin
 
 Para agregar un acceso remoto a un repositorio
