@@ -121,6 +121,15 @@ Buscar como eliminar los commits hechos anteriormente
    
    # First we run git 
    checkout master to change the active branch back to master. Then we run the command git merge new-branch to merge the new feature into the master branch. Note that git merge merges the specified branch into the currently active branch. So we need to be on the branch that we are merging into.
-<orphan <new_branch>>
 
-    Create a new orphan branch, named <new_branch>, started from <start_point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits.
+<--orphan <new_branch>>
+
+Create a new orphan branch, named <new_branch>, started from <start_point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits.
+
+-u
+--set-upstream
+
+    For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands. For more information, see branch.<name>.merge in git-config(1).
+
+Buscar que significa upstream
+
