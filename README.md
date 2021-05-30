@@ -21,13 +21,9 @@ git push -u origin main
 # Para checkear cual es el link de origin
 
 git remote --verbose
-origin	https://github.com/your/repository (fetch)
-origin	https://github.com/your/repository (push)
 
+**Para cambiarlo**
 git remote set-url origin https://github.com/your-other/repository
-
-origin	https://github.com/your-other/repository (fetch)
-origin	https://github.com/your-other/repository (push)
 
 
 # En caso de tener que hacer un puush a una parte en especifico
